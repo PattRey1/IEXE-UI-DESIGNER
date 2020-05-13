@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif !important;
+  color: rgb(56, 56, 56);
+}
+.bg-school {
+  background-color: #fdf2f0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bg-school a {
+  color: salmon;
+}
+
+.img-portrait {
+  width: 40%;
+}
+.p0 {
+  padding: 0 !important;
+}
+.main-bg {
+  background-color: #f5f2f8;
+  height: 100vh;
+}
+.main-container {
+  margin: 20px 20px;
+  padding: 20px;
+  background-color: #fff;
+  max-height: 780px;
+  border-radius: 20px;
+
+  overflow: scroll;
+}
+.separator {
+  padding: 1px;
+}
+.main-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.main-bar .uk-button {
+  border-radius: 30px;
+}
+
+.main-bar .uk-button svg {
+  margin-left: 20px;
+}
+
+.uk-card-body {
+  padding: 30px 20px;
+}
+.card-line {
+  background-color: #fff;
+  box-shadow: 10px 10px 5px 0px rgba(245, 242, 248, 1);
+}
+.uk-offcanvas-bar {
+  padding: 10px !important;
+}
+.custom-drawer {
+  background-color: #f4f2f8;
+  color: rgb(56, 56, 56);
+  min-width: 500px;
+}
+.custom-drawer .content-drawer {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px 30px;
+  height: 95%;
+}
+.custom-drawer .content-drawer h3 {
+  color: rgb(56, 56, 56);
+  margin-top: 1px;
+}
+.uk-card-title {
+  text-align: left;
+}
+
+.uk-input,
+.uk-textarea {
+  color: #666 !important;
+  border: 1px solid #e5e5e5 !important;
+  transition: 0.2s ease-in-out;
+  transition-property: color, background-color, border;
+  border-radius: 10px;
+}
+
+.uk-offcanvas-bar .uk-button-default {
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #e5e5e5;
+}
+.uk-offcanvas-bar .uk-button-default:hover {
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #e5e5e5;
+}
+.wrap-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background-color: #fff;
+}
+.avatar-wrap {
+  margin-right: 20px;
+  height: 30px;
+  width: 35px;
+}
+.avatar-wrap img {
+  width: 100%;
+}
+.wrap-logo {
+  margin-top: 20px !important;
+  margin-bottom: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 500px) {
+  .bg-school .img-portrait {
+    width: 90%;
+  }
+  .main-container {
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: #fff;
+    max-height: 625px;
+    border-radius: 20px;
+
+    overflow: scroll;
+  }
+  .menu-option {
+    display: none;
+  }
+  .wrap-logo img {
+    width: 100%;
+  }
+  .wrap-logo {
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 20px;
+  }
+  .navbar {
+    height: 50px;
+  }
+  .uk-navbar-item,
+  .uk-navbar-nav > li > a {
+    min-height: 20px;
+  }
+  .uk-button {
+    padding: 10px 15px;
+
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+  }
+  .uk-subnav-pill > li {
+    padding-left: 0px;
+  }
+  .uk-subnav-pill > li > a {
+    font-size: 10px !important;
+  }
+  .uk-subnav-pill > * > :first-child {
+    padding: 5px 7px;
+    background: 0 0;
+    color: #999;
+  }
+  .uk-logo {
+    font-size: 1rem;
+  }
+  .title {
+    text-align: center !important;
+  }
+  .uk-h3,
+  h3 {
+    font-size: 1.3rem;
+    line-height: 1.4;
+  }
+  .main-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  .uk-subnav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    padding: 0;
+    list-style: none;
+  }
+  .uk-grid {
+    flex-direction: column;
+    height: 100%;
+  }
+  .uk-child-width-1-2 > * {
+    width: 96%;
+  }
+  .card-line {
+    margin-bottom: 10px;
+  }
+  .custom-drawer {
+    min-width: 80%;
+    height: auto;
+  }
+  .custom-drawer .content-drawer {
+    height: 100vh;
+  }
+}
